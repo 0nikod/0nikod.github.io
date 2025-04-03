@@ -8,12 +8,13 @@ subtitle: ''
 description: ''
 keywords:
 author: 0nikod
-language: zh
+language: zh-cn
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://0nikod.github.io/
+url: https://0nikod.github.io/url/
+root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
