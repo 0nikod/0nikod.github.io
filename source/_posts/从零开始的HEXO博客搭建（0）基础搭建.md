@@ -4,6 +4,8 @@ date: 2024-11-30 18:43:11
 tags:
 ---
 
+***（待更新）***
+
 ## 前言
 
 本文章为 Windows 用户编写，同样适用于 macOS，Linux。
@@ -48,15 +50,17 @@ npm install -g hexo-cli
 
 ## 初始搭建
 
-### 本地初始化 Hexo
+### 本地初始化
 
 新建一个文件夹。在文件夹中打开 VSCode。
 
 在 VSCode 的终端中执行以下命令：
 
 ```powershell
-hexo init
-npm install
+git init  # 初始化本地 git 储存库
+
+hexo init # 初始化本地 Hexo
+npm install # 安装依赖
 ```
 
 完成后输入下列命令，生成静态文件：
@@ -77,9 +81,7 @@ hexo s  # hexo server
 
 #### GitHub 相关设置
 
-在 https://github.com/new 创建新仓库`{你的用户名}.github.io`。
-
-
+在 <https://github.com/new> 创建新仓库`{你的用户名}.github.io`。
 
 #### 本地相关设置
 
@@ -97,4 +99,3 @@ deploy:
   repo: https://github.com/{你的用户名}/{你的用户名}.github.io.git
   branch: main
 ```
-
