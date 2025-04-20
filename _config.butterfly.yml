@@ -17,7 +17,9 @@ nav:
   fixed: false
 
 menu:
-  # Home: / || fas fa-home
+  首页: / || fas fa-home
+  时间轴: /archives/ || fas fa-archive
+
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
@@ -28,7 +30,7 @@ menu:
 
 code_blocks:
   # Code block theme: darker / pale night / light / ocean / false
-  theme: light
+  theme: ocean
   macStyle: false
   # Code block height limit (unit: px)
   height_limit: false
@@ -41,18 +43,20 @@ code_blocks:
   shrink: false
   fullpage: false
 
+  highlight_height_limit: 400 # unit: px
+
 # Social media links
 # Formal:
 #   icon: link || the description || color
 social:
-  # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
+  fab fa-github: https://github.com/0nikod || Github || '#24292e'
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
 
 # --------------------------------------
 # Image Settings
 # --------------------------------------
 
-favicon: /img/favicon.png
+favicon:  /img/favicon.ico
 
 avatar:
   img: /img/butterfly-icon.png
